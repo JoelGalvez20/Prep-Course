@@ -28,8 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var cadena;
-  return cadena;
+  return str;
 }
 
 function suma(x, y) {
@@ -44,6 +43,7 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   var resta=x-y
+  return resta;
 }
 
 function multiplica(x, y) {
@@ -140,7 +140,7 @@ function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
   var pow;
-  pow=math.pow(num,3);
+  pow=Math.pow(num,3);
   return pow;
 }
 
@@ -148,7 +148,7 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   var pow;
-  pow=math.pow(num, exponent);
+  pow=Math.pow(num, exponent);
   return pow;
 }
 
@@ -156,7 +156,7 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   var redondeado;
-  redondeado=math.round(num);
+  redondeado=Math.round(num);
   return redondeado;
 }
 
@@ -164,7 +164,7 @@ function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
   var redondeado;
-  redondeado=math.ceil(num);
+  redondeado=Math.ceil(num);
   return redondeado;
 }
 
@@ -172,7 +172,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   var numeroRandom;
-  numeroRandom=math.random();
+  numeroRandom=Math.random();
   return numeroRandom;
 }
 
@@ -258,15 +258,15 @@ function esVocal(letra){
   var va='a', ve='e', vi='i';
   var vo='o', vu='u';
   if (letra==va){
-    return 'Es Vocal';
+    return 'Es vocal';
   }else if(letra == ve){
-      return 'Es Vocal';
+      return 'Es vocal';
   }else if (letra==vi){
-      return 'Es Vocal';
+      return 'Es vocal';
   }else if (letra == vo){
-      return 'Es Vocal';
+      return 'Es vocal';
   }else if (letra == vu){
-      return 'Es Vocal';
+      return 'Es vocal';
   } else return 'Dato Incorrecto';
 }
 
